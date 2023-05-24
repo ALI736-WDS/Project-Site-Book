@@ -1,0 +1,7 @@
+@font-face {
+    font-family: IRANMarker;
+    src: url('../fonts/IRANMarker.ttf');
+}
+*{
+    font-family: IRANMarker ;
+}

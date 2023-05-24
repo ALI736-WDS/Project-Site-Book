@@ -1,0 +1,1700 @@
+﻿body
+{
+	background : #F3F3F3 ;
+	font-family: 'iranyekanwebmedium', Arial, Helvetica, sans-serif ;
+}
+/* iranyekanwebregular 	iranyekanwebmedium 	YekanBakhMedium YekanBakhHeavy 	YekanBakhBold */
+
+div
+{
+	direction : rtl ;
+	box-sizing : border-box ;
+}
+
+main
+{
+	background : #DBD9EB ;
+	width : 100vw ;
+	height : 3750px ;
+	color : black ;
+	font-size : 1rem ;
+	text-align : right ; 
+	margin: 0px ;
+	padding : 20px ;
+	box-shadow: 0px 0px 200px 10px rgba(133,183,20,0.70) , 0px 0px 10px 3px rgba(133,183,20,0.70);
+	font-family: 'YekanBakhBold', Arial, Helvetica, sans-serif ;
+}
+/* iranyekanwebregular 	iranyekanwebmedium 	YekanBakhMedium YekanBakhHeavy 	YekanBakhBold */
+
+.style-main
+{
+	background : #DBD9EB ;
+	width : 100vw ;
+	color : black ;
+	font-size : 1rem ;
+	text-align : right ; 
+	margin: 0px ;
+	padding : 20px ;
+	box-shadow: 0px 0px 200px 10px rgba(133,183,20,0.70) , 0px 0px 10px 3px rgba(133,183,20,0.70);
+	font-family: 'YekanBakhBold', Arial, Helvetica, sans-serif ;
+}
+/* iranyekanwebregular 	iranyekanwebmedium 	YekanBakhMedium YekanBakhHeavy 	YekanBakhBold */
+
+footer
+{
+	margin: 50px auto ;
+	padding: 20px ;
+	padding-top: 30px ;
+	background-color: #4A2929 ;
+	border: 2px solid #00CBFF ;
+	border-radius: 30px ;
+	box-shadow: 2px 2px 3px 1px rgba(17,58,154,0.70) ;
+	color: white ;
+	font-family: 'iranyekanwebmedium', Arial, Helvetica, sans-serif ;
+}
+/* iranyekanwebregular 	iranyekanwebmedium 	YekanBakhMedium YekanBakhHeavy 	YekanBakhBold */
+
+.footer-div-all
+{
+	display: flex ;
+	flex-direction: row ;
+	justify-content: space-evenly;
+}
+.footer-div-all h5
+{
+	padding: 5px ;
+	padding-right: 15px ;
+	border-radius: 20px ;
+	box-shadow: 2px 2px 5px 2px rgba(93,112,156,0.70) ;
+}
+.footer-etelaat div
+{
+	display: flex ;
+	flex-direction: column;
+	justify-content: center ;
+}
+.footer-etelaat div svg
+{
+	margin: 10px ;
+}
+.footer-etelaat a
+{
+	color: #FFFFFF ;
+}
+.footer-svg-link
+{
+	transition: .5s all ease-in-out ;
+	display: flex ;
+	flex-direction: row !important;
+	justify-content: center ;
+	border-radius: 30px ;
+	box-shadow: 2px 2px 5px 2px rgba(102,103,184,0.70) ;
+}
+.footer-svg-link:hover
+{
+	transition: .5s all ease-in-out ;
+	background: #B31D1F ;
+}
+.footer-svg-link a
+{
+	margin: 5px ;
+}
+.footer-a-link
+{
+	transition: .5s all ease-in-out ;
+	display: flex ;
+	flex-direction: column!important ;
+	justify-content: center ;
+	align-items: center ;
+	line-height: 1.7 ;
+	padding: 10px 10px ;
+	border-radius: 20px ;
+	box-shadow: 2px 2px 3px 2px rgba(102,103,184,0.70) ;
+}
+.footer-a-link:hover
+{
+	transition: .5s all ease-in-out ;
+	background: #B31D1F ;
+}
+.footer-tozihat
+{
+	font-size: 0.80rem ;
+/*	line-height: 1.5 ;*/
+	padding: 20px 5px ;
+	border-radius: 20px ;
+	box-shadow: 1px 1px 50px 1px rgba(102,103,184,0.70) ;
+}
+.footer-tozihat p
+{
+	padding: 0px 20px ;
+	opacity: .8 ;
+}
+.footer-tozihat p:nth-child(4)
+{
+	line-height: 1.8 ;
+}
+.footer-tozihat-p
+{
+/*	font-weight: bold ;*/
+/*	color: #DAD5E7 ;*/
+/*	padding: 5px 10px !important;*/
+	border-radius: 20px ;
+	color: #C7D9E1 ;
+/*	box-shadow: 2px 2px 3px 2px rgba(102,103,184,0.70) ;*/	
+}
+
+.footer-tozihat-p-modir
+{
+	line-height: 1.8 ;
+}
+.footer-bi-svg
+{
+	transition: .5s all ease-in-out ;
+}
+.footer-bi-svg:hover
+{
+	transition: .5s all ease-in-out ;
+/*	width: 30px ;*/
+/*	height: 30px ;*/
+	background: #3A4FCC ;
+	border-radius: 5px ;
+}
+
+a , a:hover
+{
+	text-decoration: none ;
+}
+/*////////////////////////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////// search //////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////////////////////////*/
+.search-position
+{
+	position: sticky ;
+	top: 90px ;
+	z-index: 9 ;
+}
+
+.div-search-position
+{
+	position: sticky ;
+	top: 15px ;
+	z-index: 9 ;
+}
+
+.search
+{	
+	display: flex ;
+	justify-content:center;
+	font-family: 'iranyekanwebmedium', Arial, Helvetica, sans-serif ;
+}
+/* iranyekanwebregular 	iranyekanwebmedium 	YekanBakhMedium YekanBakhHeavy 	YekanBakhBold */
+
+
+.mobile-search
+{
+	width: 75% ;
+	margin: auto ;
+	text-align: center ;
+	border-radius: 10px ;
+}
+
+input.mobile
+{
+	width: 50% ;
+	display: inline-block ;
+	border-radius: 10px ;
+	box-shadow: 2px 2px 3px 1px rgba(17,58,154,0.70) ;
+}
+
+input.input
+{
+	width: 30vw ;
+	display: inline ;
+	border-radius: 10px ;
+	box-shadow: 2px 2px 3px 1px rgba(17,58,154,0.70) ;
+}
+
+input.sub
+{
+	transition: .5s all ease-in ;
+	border: none ;
+	border-radius: 10px ;
+	color: #fff ;
+	background-color: rgba(0,69,195,0.90) ;
+	box-shadow: 2px 2px 3px 1px rgba(17,58,154,0.70) ;
+}
+
+input.sub:hover
+{
+	transition: .5s all ease-in ;
+	border-radius: 15px ;
+}
+/*////////////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////// clock //////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////////////////////////*/
+.clock 
+{
+	margin: 0px 0px 20px ;
+	display: flex ;
+	justify-content: center ;
+	color: #2241B8;
+	font-size: 2.5rem;
+	font-family: 'iranyekanwebmedium', Arial, Helvetica, sans-serif ;
+	letter-spacing: 7px;
+}
+/* iranyekanwebregular 	iranyekanwebmedium 	YekanBakhMedium YekanBakhHeavy 	YekanBakhBold */
+
+/*////////////////////////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////////////////////////*/
+header
+{
+	margin-bottom: 30px ;
+	background-color: rgba(14,1,181,0.72) ;
+	backdrop-filter : blur(30px) ;
+	box-shadow: 2px 2px 3px 1px rgba(114,120,38,1.00) ;
+	position: sticky ;
+	top: 10px ;
+	border-radius: 40px ;
+	z-index: 10 ;
+	font-family: 'iranyekanwebmedium', Arial, Helvetica, sans-serif ;
+}
+/* iranyekanwebregular 	iranyekanwebmedium 	YekanBakhMedium YekanBakhHeavy 	YekanBakhBold */
+
+nav
+{
+	height: 70px ;
+}
+.img-menu
+{
+	margin-left: 10px ;
+}
+
+.bg-color-menu
+{
+	background-color: rgba(30,80,171,0.5) ;
+/*	border: 2px solid rgba(58,147,196,.5) ;*/
+	box-shadow: 2px 2px 3px 1px rgba(27,38,172,1.0) ;
+	border-radius: 50px ;
+}
+a.nav-link
+{
+	transition: .5s all ease-in ;
+	margin: 0px 10px ;
+	color: #F8EEEF !important ;
+}
+a.nav-link:hover
+{
+	transition: .5s all ease-in ;
+	border: 2px solid rgba(15,97,183,0.60) ;
+	border-radius: 50px ;
+	background-color: rgba(0,69,195,0.72) ;
+}
+.dropdown-menu.show
+{
+	border-bottom: 2px solid #33ffff ;
+	border-radius: 5px 5px 0px 0px ;
+	border: 2px solid rgba(15,97,183,0.60) ;
+	background-color: rgba(0,69,195,0.72) ;
+}
+.dropdown-item
+{
+	transition: .5s all ease-in ;
+	color: #F1E6E8 !important ;
+	text-align: right ;
+}
+.dropdown-item:hover
+{
+	transition: .5s all ease-in ;
+	border: 2px solid rgba(15,97,183,0.60) ;
+	border-radius: 50px ;
+	background-color: rgba(0,69,195,0.72) ;
+}
+
+.img-jeld-ketab-menu img
+{
+	border-radius: 40% ;	
+}
+
+/*////////////////////////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////////////////////////*/
+.img-jeld-ketab
+{
+	margin: auto ;
+	margin-bottom: 25px ;
+	padding: 0px ;
+	width: auto;
+	height: 600px ;
+	display: flex ; 
+	justify-content: center ; /* ba taghire andaze safhe aks dar vasat safhe mimune */
+	align-content: center ;	
+}
+
+.img-jeld-ketab img
+{
+	margin: auto ;
+	width: auto;
+	height: 600px ;
+	border-radius: 50px ;
+}
+
+.head-image img
+{
+	border-radius: 10px ;
+	transition: .6s all ;   /* محو به ثانیه، وقتی موس از ر.ی عکس میره */
+	box-shadow: 2px 2px 3px 1px rgba(114,120,38,1.00) ;
+}
+
+.head-image
+{
+	margin-top: 60px ;
+}
+
+.head-image img:hover
+{
+	opacity: .4 ;  /* %محو شدن وقتی موس روی عکس میاد .4=40 */
+	transition: .6s all ;   /* محو به ثانیه، وقتی موس روی عکس میاد */
+}
+
+.content-text
+{
+	margin: 80px 0px 70px 0px ;
+	padding: 20px 70px ;
+	background-color: rgba(126,190,253,1.00) ;	
+	border-right: 3px solid rgba(27,99,13,1.00) ;
+	border-left: 3px solid rgba(27,99,13,1.00) ;
+	border-radius: 10px ;
+}
+
+.form-legend
+{
+	margin: 30px 0px ;
+	text-align: center ;
+	font-size: 1.7rem ;
+	font-weight: bold ;
+}
+
+.panel-img-writer-and-blog
+{
+	width: 100px ;
+	border-radius: 25px ;
+	vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+} 
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white !important;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 94%;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+ul
+{
+	list-style-type: none ;
+}
+/*/////////////////////////////////////////////////////////////*/
+/*///////////////// in panel admin: .upload-file //////////////*/
+/*/////////////////////////////////////////////////////////////*/
+.upload-file
+{
+	margin: 30px auto 0px ;
+	display: flex ;
+	background: #34495e;
+	height: 70px;
+	width: 500px;
+	border-radius: 10px ;
+}
+.upload-file label
+{
+	margin-right: 8px ;
+	padding: 18px;
+	color: #fff;
+	background: #1C71C5;
+	border-radius: 10px ;
+	font-size: 1.1rem;
+	font-family: 'iranyekanwebmedium', Arial, Helvetica, sans-serif ;
+}
+/* iranyekanwebregular 	iranyekanwebmedium 	YekanBakhMedium YekanBakhHeavy 	YekanBakhBold */
+
+.upload-file input[type=file]
+{
+	width: 220px ;
+	margin: 0px 5px ;
+	border: none;
+	cursor: pointer;
+	color: #fff;
+	font-family: 'iranyekanwebmedium', Arial, Helvetica, sans-serif ;
+}
+/* iranyekanwebregular 	iranyekanwebmedium 	YekanBakhMedium YekanBakhHeavy 	YekanBakhBold */
+
+.upload-file input[type=submit]
+{ 
+	transition: .5s all ease-in-out ;
+	margin: 5px ;
+	width: 100px;
+	height: 60px;
+	border: none;
+	border-radius: 10px ;
+	background: #5960D5;
+	color: #fff;
+	cursor: pointer;	
+	font-size: 1.2rem ;
+	font-family: 'iranyekanwebmedium', Arial, Helvetica, sans-serif ;
+}
+/* iranyekanwebregular 	iranyekanwebmedium 	YekanBakhMedium YekanBakhHeavy 	YekanBakhBold */
+
+.upload-file input[type=submit]:hover
+{
+	transition: .5s all ease-in-out ;
+	font-size: 1.27rem ;
+	background: #474EC4;
+}
+.upload-inf-file
+{
+	margin: 5px auto ;
+	padding: 5px ;
+	display: flex ;
+	flex-direction: column ;
+	justify-content: center ;
+	background: #34495e;
+	width: 500px;
+	min-height: 150px;
+	height: auto;
+	color: #fff;
+	border-radius: 10px ;
+}
+
+.upload-inf-file p
+{
+	transition: .5s all ease-in-out ;
+	width: 95%;
+	margin: 5px auto;
+	padding: 10px 20px ;
+	font-size: 13px;
+	background: #2c3e50;
+	border-radius: 10px ;
+	font-family: 'iranyekanwebmedium', Arial, Helvetica, sans-serif ;
+}
+/* iranyekanwebregular 	iranyekanwebmedium 	YekanBakhMedium YekanBakhHeavy 	YekanBakhBold */
+
+.upload-inf-file p:hover
+{
+	transition: .5s all ease-in-out ;
+	background: #e74c3c;
+	font-size: 0.9rem ;
+}
+.p-upload-inf
+{
+	text-align: center ;
+	font-size: 1.2rem !important;
+	background: #783638 !important;
+	color: #91EB2A ;
+	padding: 10px 0px !important;
+	border-radius: 10px ;
+}
+.p-no_upload-inf
+{
+	text-align: center ;
+	font-size: 1.4rem !important;
+	font-weight: bold ;
+	background: #AD292D !important;
+	color: #85E419 ;
+	padding: 10px 0px !important;
+	border-radius: 10px ;
+}
+.p-upload-inf-address
+{
+	text-align: center ;
+	font-size: 1.1rem !important;
+	background: #883032 !important;
+	color: #91EB2A ;
+	padding: 10px 0px !important;
+	border-radius: 10px ;
+}
+.p-upload-inf-address a
+{
+	transition: .5s all ease-in-out ;
+	color: #6EAEF3 ; 
+}
+.p-upload-inf-address a:hover
+{
+	transition: .5s all ease-in-out ;
+	font-size: 1.3rem ;
+	color: #1FD36B ; 
+}
+/*/////////////////////////////////////////////////////////////*/
+/*////////////////////////// boxes ////////////////////////////*/
+/*/////////////////////////////////////////////////////////////*/
+
+.all_boxes
+{
+	width: 100% ;
+	height: auto ;
+	padding-bottom: 20px ;
+	background: rgba(213,197,224,0.50) ;
+	box-shadow: 0px 0px 10px 2px rgba(120,3,159,1.00) ;
+	position: relative;
+	top: 100px ;
+	left: -5px ;
+	border-radius: 20px ;
+	display: flex ;
+	flex-direction: row ;
+	flex-wrap: wrap ;
+	justify-content: flex-start ;
+	align-items: flex-start ;
+	align-content: flex-start ;
+	font-family: 'iranyekanwebmedium' ;
+}
+/* iranyekanwebregular 	iranyekanwebmedium 	YekanBakhMedium YekanBakhHeavy 	YekanBakhBold */
+
+.all_boxes>h1
+{
+    width: 90% ;
+	height: 40px ;
+	margin: 20px auto 0px;
+	padding: 5px ;
+	text-align: center ;
+	font-size: 20pt ;
+	background: rgba(17,39,211,0.50) ;
+	border-radius: 30px ;
+	color: rgba(229,203,203,1.00) ;
+	box-shadow: 2px 2px 3px 2px rgba(120,3,159,1.00) ;
+}
+
+.boxes
+{
+	height: 630px ;
+	box-shadow: 2px 2px 2px 2px rgba(150,148,148) ;
+	padding: 8px ;
+	border-radius: 10px ;
+	transition: .4s ;
+	margin-top: 30px ;
+	position: relative ;
+	text-align: justify ;
+}
+
+.boxes span
+{
+	opacity: .7 ;
+}
+
+.boxes p
+{
+	margin: 5px 0px ;
+}
+
+.boxes:hover
+{
+	margin-top: 10px ;
+	transition: .4 ;
+}
+
+.boxes img
+{
+	transition: .4s ;
+	width: 250px ;	
+	height: 200px ;
+	border-radius: 20px ;
+	display: block ;
+    margin: auto ;
+}
+
+.boxes img:hover
+{
+	opacity: .5 ;
+	transition: .4 s ;
+}
+
+.boxes span
+{
+	margin-right: 5px;
+}
+
+.boxes .date
+{
+	text-align: center;
+	margin: 20px 0px 0px 0px ;
+	font-weight:  bold ;
+	color: #315B4C ;
+}
+/*//////////////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////////////*/
+.div-inf-blog
+{
+	width: 100%  ;
+	display: flex ;
+	flex-direction: column ;
+	padding: 10px ;
+	border-top: 2px solid rgba(0,12,116,1.00);
+	border-radius: 30px ;
+	box-shadow: 0px 2px 2px 1px rgba(22,36,147,0.30) ;
+	position: absolute;
+	bottom: 10px ;
+	left: 10px ;
+}
+
+.div-view-comment
+{
+	display: flex ;
+	flex-direction: row ;
+}
+
+.div-date
+{
+	margin-right: 2px ;
+}
+
+.span-as-svg-margin-top
+{
+	margin-top: 2px;
+}
+
+.svg-seen, .svg-chat, .svg-date, .svg-person
+{
+	color: #3100AC ;
+}
+/*//////////////////////////*/
+/*//////////////////////////*/
+.div-SL-inf-blog
+{
+	width: 100%  ;
+	display: flex ;
+	flex-direction: column ;
+	padding: 10px ;
+	border-top: 2px solid rgba(0,12,116,1.00);
+	border-radius: 30px ;
+	box-shadow: 0px 2px 2px 1px rgba(22,36,147,0.30) ;
+}
+/*//////////////////////////*/
+/*//////////////////////////*/
+h3.title-blog
+{
+	margin: 40px auto 20px;
+	text-align: center ;
+}
+/*////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////*/
+.Edame_Matlab
+{
+	display: flex ;
+	justify-content: center ;
+	margin-top: 50px ;
+}
+
+.Edame_Matlab a
+{
+	padding: 7px ;
+	font-size: 20px ;
+	border: 3px solid #0005FF ;
+	box-shadow: 0px 2px 2px 1px rgba(22,36,147,0.30) ;
+	border-radius: 20px ;
+	background: rgba(127,215,35,0.70) ;
+	transition: .5s all ease-in ;
+}
+
+.Edame_Matlab a:hover
+{
+    background: #100EC5 ;
+	border-radius: 30px ;
+	font-size: 1.4rem ;
+	color: #FBF800 ;
+	padding: 9px ;
+	transition: .5s all ease-in ; ;
+}
+/*////////////////////////////////////////////////////////////*/
+/*/////////////////////// blog ///////////////////////////////*/
+/*////////////////////////////////////////////////////////////*/
+.blog
+{
+	background-color: #C7E4E8 ;
+	border: 5px solid #333 ;
+	border-radius: 20px ;
+	padding: 30px ;
+	box-sizing: border-box;
+	font-size: 1rem ;
+	line-height: 2.5 ;
+	text-align: justify ;
+	font-family: 'YekanBakhMedium', Arial, Helvetica, sans-serif ;
+}
+/* iranyekanwebregular 	iranyekanwebmedium 	YekanBakhMedium YekanBakhHeavy 	YekanBakhBold */
+
+.blog img
+{
+	width: 500px;
+	margin: 20px  auto ;
+	display: block ;
+	margin-bottom: 50px ;
+	border-radius: 30px ;	
+}
+
+.blog h1
+{
+	width: 95% ;
+	height: 50px ;
+	margin: auto ;
+	padding: 30px ;
+	line-height: 1.5 ;
+	display: flex ;
+	justify-content: center ;	
+	align-items: center ;
+	text-align: center ;
+	font-size: 1.8rem ;
+	color: rgba(255,255,255,1.00) ;
+	background: rgba(221,175,79,0.90) ;
+	border-radius: 30px ;
+	box-shadow: 2px 2px 3px 2px rgba(120,3,159,1.00) ;
+}
+
+.date-time
+{
+	margin-top: 50px ;
+}
+
+.date-time span
+{
+	margin: 30px 20px 20px 30px ;
+/*	padding: 10px ;*/
+}
+
+.person
+{
+	margin-top: 20px ;
+}
+
+.person span
+{
+    position: absolute ;
+	margin-top: 7px ;
+	margin-right: 5px ;
+}
+
+.tags
+{
+	box-shadow: 2px 2px 1px 2px rgba(99,99,99) ;
+	padding: 30px ;
+	border-radius: 5px ;
+	margin: 10px ;
+}
+.p-tag
+{
+	width: 100px ;
+	border-radius: 30% ;
+	text-align: center ;
+	background: rgba(163,228,51,1.00) ;
+	box-shadow: 2px 2px 3px 2px rgba(76,108,20,1.00) ;
+	font-size: 1.1rem ;
+	font-family: 'iranyekanwebmedium', Arial, Helvetica, sans-serif ;
+}
+/* iranyekanwebregular 	iranyekanwebmedium 	YekanBakhMedium YekanBakhHeavy 	YekanBakhBold */
+
+.tags a
+{
+	padding: 10px ;
+	background-color: #3b3b3b ;
+	color : #fff ;
+	margin: 10px ;
+	border-radius: 7px ;
+}
+.a-tag
+{
+	display: flex ;
+}
+.writer-info
+{
+	margin-top: 60px ;
+	box-shadow: 2px 2px 2px 2px rgb(13,168,135) ;
+	padding: 30px ;
+	padding-bottom: 40px ;
+	border-radius: 10px ;
+	background: rgba(136,221,47,0.75) ;
+}
+
+.writer-info img
+{
+	border-radius: 10px ;
+}
+.writer-info a
+{
+	font-size: 20px ;
+	display: block ;
+	margin: 10px 0px 20px 10px;
+}
+
+.writer-info span
+{
+	position: absolute ;
+	right: 60px ;
+}
+
+.coment2
+{
+	margin-top: 80px ;
+	box-shadow: 2px 2px 2px 2px rgb(150,148,148) ;
+	padding: 20px ;
+	border-radius: 10px; 
+}
+
+.coment2 h5
+{
+	margin-bottom: 20px ;
+}
+
+.btnsubmit
+{
+	margin-top: 20px ;
+}
+
+.user-coment
+{
+	box-shadow: 2px 2px 2px 2px rgb(99,99,99) ;
+	padding: 7px ;
+	border-radius: 5px ;
+}
+
+.time p
+{
+	display: inline ;
+	padding: 30px ;
+}
+/*///////////////////////////////////////////////*/
+/*///////////////////////////////////////////////*/
+.all-register-div {
+    margin: 0;
+	width: 100%;
+    height: 710px;
+/*    overflow: hidden;*/
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex ;
+	justify-content: center ;
+	align-items: center ;
+    background-color: #F6F6F6;
+}
+.all-login-div {
+    margin: 0;
+    height: 560px;
+/*    overflow: hidden;*/
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex ;
+	justify-content: center ;
+	align-items: center ;
+    background-color: #F6F6F6;
+}
+.register-div {
+    width: 430px;
+    height: 680px;
+/*    overflow: hidden;*/
+    padding: 30px 35px 35px 35px;
+    border-radius: 40px;
+    background-color: #ecf0f3;
+    box-shadow: 13px 13px 20px #cbced1,
+    -13px -13px 20px #fff;
+}
+.login-div {
+    width: 430px;
+    height: 530px;
+    padding: 30px 35px 35px 35px;
+    border-radius: 40px;
+    background-color: #ecf0f3;
+    box-shadow: 13px 13px 20px #cbced1,
+    -13px -13px 20px #fff;
+}
+.logo svg{
+    width: 100px;
+    height: 100px;
+    border-radius: 20%;
+	display: flex ;
+	justify-content: center ;
+    margin: 0 auto;
+    box-shadow: 0px 0px 2px #5f5f5f,
+    0px 0px 0px 5px #ecf0f3,
+    8px 8px 15px #afaaa7,
+    -8px -8px 15px #fff;
+}
+.title1
+{
+	margin-top: 30px ;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.title {
+	width: 150px ;
+	height: 50px ;
+	padding-top: 10px ;
+    text-align: center;
+    font-size: 28px;
+    letter-spacing: 0.5px;
+	border-radius: 40%;
+	box-shadow: 1px 1px 5px 5px #0D4CA3;
+}
+.sub-title {
+    text-align: center;
+    font-size: 15px;
+    padding-top: 7px;
+    letter-spacing: 3px;
+}
+.fields {
+    width: 100%;
+    padding: 30px 0px 0px 0px;
+}
+.fields div 
+{
+	width: 100%;
+	display: flex ;
+	justify-content: center;
+	align-items: center ;
+	align-content: center ;
+	flex-direction: row;
+	padding: 0px 0px 0px 40px;
+}
+.fields input {
+    border: none;
+    outline: none;
+    font-size: 18px;
+    color: #555;
+    padding: 20px 0px 20px 0px;
+}
+.fields svg {
+    height: 22px;
+	padding: 0px 0px 0px 20px;
+}
+.user-input, .email-input, .password1-input, .password2-input
+{
+	background: none ;
+}
+.username, .email, .password1, .password2 {
+    border-radius: 25px;
+	margin: 10px auto 15px;
+    box-shadow: inset 8px 8px 8px #cbced1,
+    inset -8px -8px 8px #fff;
+}
+#msg_username, #msg_email, #msg_email_motabar, #msg_password1, #msg_password2, #msg_password1_2, 
+#login_msg_email, #login_msg_email_motabar, #login_msg_password1, #msg_title, #msg_editor1, #msg_readtime, #msg_image, #msg_tags
+{
+	display: none ;
+	margin: 10px 15px 25px 0px ;
+	color: #FF0004 ;
+}
+.submit {
+	margin-top: 10px ;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff !important ;
+    text-align: center;
+    background-color: #366CCB; 
+    box-shadow: 3px 3px 8px #9F8888,
+    -3px -3px 8px #fff;
+    transition: all 0.5s;
+}
+.submit:hover {
+    background-color: #50e5b9;
+}
+
+.header-baner
+{
+	display: flex ;
+	justify-content: center ;
+/*	background-color : rgb(120,100,240) ;*/
+}
+.header-baner h1
+{
+	margin: 0px auto 20px  ; 
+	padding: 20px 0px ;
+	width : 80vw ; 
+	height : 80px ;
+	background-color : rgb(120,100,240) ;
+	color : white ;
+	font-size : 20pt ;
+	text-align : center ;
+	border-radius: 20px ;
+	box-sizing: border-box ;
+	position: relative;
+	top: 0px ;
+	box-shadow: 3px 3px 3px 2px rgba(35,18,124,1.00)  ;
+}
+/*///////////////////////////////////////*/
+/*///////////////////////////////////////*/
+
+.etelaat_ketab
+{
+	width: 100% ;
+	height: 600px ;
+	margin: auto ;
+	display: flex;
+	flex-direction: row ;
+	border: 2px solid black ;
+	border-radius: 20px ;
+	line-height: 2 ;
+	background: #E4B6B7 ;
+	font-size: 1.1rem ;
+	box-shadow: 2px 2px 5px 1px rgba(179,99,99,1.00) ;
+}
+
+.div-img-and-address768
+{
+	display: none ;
+}
+
+.etelaat_ketab div
+{
+	width: 100% ;
+	font-weight: bold ;
+	color: #0A31D0 ;
+	border-radius: 20px ;
+}
+
+.etelaat_ketab div:nth-child(1)
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.etelaat_ketab ul li:nth-child(1)
+{
+	list-style-type: none ;
+	font-size: 18pt ;
+	font-weight: bold ;
+}
+
+.etelaat_ketab ul li:nth-child(2)
+{
+	list-style-type: none ;
+	font-size: 16pt ;
+	font-weight: bold ;
+}
+
+.etelaat_ketab ul li:nth-child(3)
+{
+	list-style-type: none ;
+}
+
+.etelaat_ketab ul li:nth-child(11)
+{
+	list-style-type: none ;
+}
+
+.etelaat_ketab ul li:nth-child(12)
+{
+	list-style-type: none ;
+	font-weight: bold ;
+}
+
+.etelaat_ketab ul li:nth-child(13)
+{
+	list-style-type: none ;
+	font-weight: bold ;
+}
+
+.div-img-and-address 
+{
+	display: flex;
+	flex-direction: column;
+}
+
+.div-img-and-address img
+{
+	width: 400px ;
+	margin: auto ;
+	border-radius: 40px ;
+}
+
+.div-img-and-address div
+{
+	width: 25vw ;
+	margin: auto ;
+	padding-top: 20px ;
+	font-size: 1.3rem ;
+	line-height: 1.5 ;
+	background-color: #9CD41D ;
+	border-radius: 40px ;
+	display: flex ;
+	flex-direction: column ;
+	justify-content: center ;
+	align-items: center ;
+	align-content: center ;
+}
+
+.etelaat_ketab ul
+{
+	text-align: center ;
+}
+
+/*////////////////////////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////////////////////////*/
+
+.div-link-download
+{	
+	width: 100% ;
+	height: 200px ;
+	padding: 18px ;
+	font-size: 1.2rem ;
+	position: relative;
+	top: 50px ;	
+	background: rgba(33,14,114,.8) ;
+	display: flex ;
+	flex-direction: column ;
+	justify-content: center ; 
+	align-item: center ; 
+	border-radius: 70px ;
+	box-shadow: 2px 2px 3px 1px rgba(120,3,159,1.00) ;
+	box-sizing: border-box ;
+	font-family: 'YekanBakhMedium' ;
+}
+/* iranyekanwebregular 	iranyekanwebmedium 	YekanBakhMedium YekanBakhHeavy 	YekanBakhBold */
+.div-a-link-download
+{
+	margin: 100px ;
+}
+
+.div-a-link-download p
+{
+	margin-top: 15px ;
+	border-radius: 20px ;
+	transition: .5s all ease-in ;
+}
+
+.div-a-link-download p:hover
+{
+	text-align: center ;
+	margin-left: 80px;
+	margin-right: 80px;
+	transition: .5s all ease-in ;
+}
+
+.div-a-link-download p a
+{
+	padding: 8px ;
+	text-align: center ;
+	color: rgba(235,210,210,1.00) ;
+	display: block;
+	border-radius: 20px ;
+	box-shadow: 2px 2px 3px 2px rgba(150,180,250,1.00) ;
+	transition: .5s all ease-in ;
+}
+
+.div-a-link-download p a:hover
+{
+	font-size: 1.4rem ;
+	transition: .5s all ease-in ;
+	background: rgba(49,0,215,1.00) ;
+}
+
+.div-a-link-download p:nth-child(1)
+{
+	background: #A01818 ;
+}
+
+.div-a-link-download p:nth-child(2)
+{
+	background: #B8800A ; 
+}
+
+.div-a-link-download p:nth-child(3)
+{
+	background: #87752B ; 
+}
+
+/*//////////////////////////////////////*/
+/*//////////////////////////////////////*/
+
+.div-SL-link-download
+{
+	width: 100% ;
+	height: 800px ;
+	margin-top: 0px ;
+	margin-bottom: 70px ;
+	padding: 18px ;
+	font-size: 1.2rem ;
+	background: rgba(33,14,114,.8) ;
+	display: flex ;
+	flex-direction: column ;
+	justify-content: center ; 
+	align-item: center ; 
+	border-radius: 70px ;
+	box-shadow: 2px 2px 3px 1px rgba(120,3,159,1.00) ;
+	box-sizing: border-box ;
+	font-family: 'YekanBakhMedium' ;
+}
+
+.div-SL-a-link-download
+{
+	margin: 100px ;
+}
+
+.div-SL-a-p-link-download
+{
+	margin-top: 15px ;
+	border-radius: 20px ;
+	background: #0B65E0 ;
+	transition: .5s all ease-in ;
+}
+
+.div-SL-a-p-link-download:hover
+{
+	text-align: center ;
+	margin-left: 80px;
+	margin-right: 80px;
+	transition: .5s all ease-in ;
+}
+
+.div-SL-a-p-link-download a
+{
+	padding: 8px ;
+	text-align: center ;
+	color: rgba(235,210,210,1.00) ;
+	display: block;
+	border-radius: 20px ;
+	box-shadow: 2px 2px 3px 2px rgba(150,180,250,1.00) ;
+	transition: .5s all ease-in ;
+}
+
+.div-SL-a-p-link-download a:hover
+{
+	font-size: 1.4rem ;
+	transition: .5s all ease-in ;
+	background: rgba(49,0,215,1.00) ;
+}
+
+.div-SL-caption-link-download
+{
+	width: auto ;
+	margin: 40px 0px ;
+	padding: 20px ;
+	background: rgba(0,236,255,1.00) ;
+	border-radius: 20px ;
+	text-align: justify ;
+}
+
+.div-SL-a-link-download img
+{
+	width: 600px ;
+	margin: auto ;
+	display: flex ;
+	justify-content: center ;
+	align-items: center ;
+	border-radius: 50px ;
+}
+
+.div-svg-see-link
+{
+	margin-top: 40px ;
+	color: #E7CECF ; 
+}
+.div-svg-see-link span
+{
+	margin-top: 50px ;
+	margin-right: 5px ;
+}
+
+/*////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////*/
+@media (max-width: 992px)
+{
+    main
+	{
+		height: 4400px ;
+	}
+    
+	.etelaat_ketab
+	{
+		margin-top: 5px ;
+	}
+/*////////////////////////////////*/
+	.img-jeld-ketab
+	{
+		margin-bottom: -20px ;
+	}
+	
+	.img-jeld-ketab img
+	{
+		height: 550px ;
+		margin-top: 5px ;
+	}
+/*////////////////////////////////*/
+	.div-img-and-address img
+	{
+		width: 280px ;
+		margin-left: 10px ;
+	}
+/*////////////////////////////////*/
+	.header-baner h1
+	{
+		height: 100px ;	 
+	}
+/*////////////////////////////////*/
+	.div-a-link-download
+	{
+		margin: 55px ;
+	}
+	.div-a-link-download a:hover
+	{
+		display: flex ;
+		justify-content: center ;
+		align-items: center ;
+	}
+	.div-a-link-download p:hover
+	{
+		margin-left: 30px;
+		margin-right: 30px;
+	}
+/*////////////////////////////////*/
+	.div-SL-link-download
+    {
+    	padding: 30px ;
+    	font-size: 1rem ;
+    }
+    .div-SL-a-link-download
+    {
+    	margin: 0px ;
+    }
+    .div-SL-a-p-link-download:hover
+    {
+    	margin-left: 60px;
+    	margin-right: 60px;	
+    }
+    .div-SL-a-p-link-download a:hover
+    {
+    	font-size: 1.1rem ;
+    }
+}
+/*////////////////////////////////////////////*/
+/*////////////////////////////////////////////*/
+@media (max-width: 768px)
+{
+	.etelaat_ketab
+	{
+		display: flex ;
+		flex-direction: column ;
+		margin-top: 5px ;
+		height: 810px ;
+	}
+/*////////////////////////////////*/
+	.img-jeld-ketab
+	{
+		margin-bottom: -120px ;
+	}
+	
+	.img-jeld-ketab img
+	{
+		height: 450px ;	
+		margin-top: 5px ;
+	}
+/*////////////////////////////////*/
+	.div-img-and-address
+	{
+		display: none ;
+	}
+	.div-img-and-address768
+	{
+		display: flex;
+		flex-direction: row;
+	}
+
+	.div-img-and-address768 img
+	{
+		width: 250px ;
+		margin: auto ;
+		border-radius: 40px ;
+	}
+
+	.div-img-and-address768 div
+	{
+		width: 25vw ;
+		margin: auto ;
+		padding-top: 20px ;
+		background-color: #9CD41D ;
+		border-radius: 40px ;
+		display: flex ;
+		flex-direction: column ;
+		justify-content: center ;
+		align-items: center ;
+		align-content: center ;
+	}
+/*////////////////////////////////*/
+	.div-inf-blog
+	{
+		margin-left: 10px ;
+	}
+/*////////////////////////////////*/
+	.div-a-link-download
+	{
+		margin: 15px ;
+	}
+	.div-a-link-download p:hover
+	{
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	.div-a-link-download p a:hover
+	{
+		font-size: 1.3rem ;
+	}
+/*////////////////////////////////*/
+	.div-SL-link-download
+    {
+    	height: 650px ;
+    	font-size: 1rem ;
+    }
+    .div-SL-a-link-download
+    {
+    	margin: 0px ;
+    }
+    .div-SL-a-p-link-download:hover
+    {
+    	margin-left: 40px;
+    	margin-right: 40px;	
+    }
+    .div-SL-a-p-link-download a:hover
+    {
+    	font-size: 1.1rem ;
+    }
+}
+/*////////////////////////////////////////////*/
+/*////////////////////////////////////////////*/
+@media (max-width: 576px)
+{
+	footer
+	{
+		width: 650px !important;
+	}
+	.footer-div-all
+	{
+		width: 600px ;
+	}
+	.footer-div-all h5
+	{
+		font-size: 1.1rem ;
+	}		
+	header
+	{
+		width: 650px ;
+	}
+/*////////////////////////////////*/	
+	.clock
+	{
+		font-size: 1.5rem ;
+	}
+/*////////////////////////////////*/	
+	.etelaat_ketab
+	{
+		margin-top: 5px ;
+		height: 850px ;
+	}
+/*////////////////////////////////*/	
+	.img-jeld-ketab
+	{
+		margin-bottom: -270px ;
+	}
+	
+    .img-jeld-ketab img
+	{
+		height: 300px ;	
+		margin-top: 5px ;
+	}
+/*////////////////////////////////*/
+	.div-img-and-address img
+	{
+		width: 150px ;
+	}
+/*////////////////////////////////*/
+	.header-baner h1
+	{
+		height: 120px ;	 
+	}
+/*////////////////////////////////*/
+	.div-inf-blog
+	{
+		width: 90% ;
+	}
+/*////////////////////////////////*/	
+	.blog
+	{
+		font-size: .7rem ;
+	}
+	.blog h1
+    {
+    	width: 100% ;
+    	font-size: 1.1rem ;
+    }
+	.person span
+	{
+	    margin-top: 12px ;
+	}
+/*////////////////////////////////*/ 
+	.add-edit-blog
+	{
+		width: 600px ;
+	}
+/*////////////////////////////////*/ 
+	.mobile-search:nth-child(1)
+	{
+		width: 300px ;
+	}
+/*////////////////////////////////*/    
+	.div-link-download
+	{
+		height: 240px ;
+	}
+	.div-a-link-download
+	{
+		margin: 5px ;
+		font-size: 1.1rem ;
+	}
+	.div-a-link-download p:hover
+	{
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	.div-a-link-download p a:hover
+	{
+		font-size: 1.15rem ;
+	}
+	.link-download-p-a-pl-xl 
+	{
+		padding-left: 0px !important ;
+	}
+	.span-view-pl-xl
+	{
+		padding-left: 10px !important ;
+	}
+/*////////////////////////////////*/
+	.div-SL-link-download
+    {
+    	height: 600px ;
+    	padding: 18px ;
+    	font-size: 1rem ;
+    }
+    .div-SL-a-link-download
+    {
+    	margin: 0px ;
+    }
+	.div-SL-a-link-download img 
+	{
+		margin-top: 0px ;
+		width: 400px ;
+	}
+    .div-SL-a-p-link-download:hover
+    {
+    	margin-left: 20px;
+    	margin-right: 20px;	
+    }
+    .div-SL-a-p-link-download a:hover
+    {
+    	font-size: 1.1rem ;
+    }
+/*////////////////////////////////*/
+	.panel-admin-blogs input
+	{
+		width: 800px !important;
+		padding: 800px !important;
+	}
+/*////////////////////////////////*/	
+	.all-register-div 
+	{
+		width: 500px;
+		height: 800px;
+	}
+	.all-login-div 
+	{
+		width: 500px;
+		height: 800px;
+	}
+}
+
+
+
+
+
+
+
