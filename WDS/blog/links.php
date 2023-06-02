@@ -30,7 +30,7 @@ $show_number_views=$select_show_number_view->fetchColumn();  // $numro : tedad r
 include '../includes/menu site.php' ;
 ?>
 <!doctype html>
-<html>
+<html lang="fa" dir="rtl">
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="" content="" > 
