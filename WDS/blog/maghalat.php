@@ -69,14 +69,11 @@ $show_user_writer->execute();
 $show_user_writers=$show_user_writer->fetchAll(PDO::FETCH_ASSOC);
 foreach($show_user_writers as $show_user_writers_other);
 //** (end code peyda kardane id va bio)
-endforeach;
 
-/////////////////////////////////////////
-/////////////////////////////////////////
 include '../includes/menu site.php';
-?>
+?><?php endforeach; ?>
 <!doctype html>
-<html>
+<html lang="fa" dir="rtl">
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="" content="" > 
@@ -166,7 +163,7 @@ include '../includes/menu site.php';
 			<?php endforeach; ?>
 		</div>
 
-		<div class="">
+	<div class="">
 		<div class="coment2">
 			<h5> دیدگاهتان را بنویسید </h5>
 			<script src="//cdn.ckeditor.com/4.19.0/standard/ckeditor.js"></script>
@@ -179,12 +176,13 @@ include '../includes/menu site.php';
 		</form>
 			<?php foreach($show_user_comments as $show_user_comment){ ?>
 			<div class="user-coment"> 
-				   <?= $show_user_comment['user_comment_id'] ?><br>
+				<?= $show_user_comment['user_comment_id'] ?><br>
 				<?= $show_user_comment['text'] ?>
 			</div>
 			<?php } ?>
 		</div>
-		</div>
+	</div>
+</div>
 	
 <?php
 include '../includes/footer.php' ;
