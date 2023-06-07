@@ -157,11 +157,13 @@ include 'WDS/includes/menu main site.php';
 			<!--//////////////////////////////////////////////////////////////////////////////-->
 			<!--//////////////////////////////////////////////////////////////////////////////-->
 			<!--//////////////////////////////////////////////////////////////////////////////-->
-			<div class="home-comments">
-				<h2> نظر خود را بنویسید...</h2>
-				<div>
-					<a href="./WDS/Home-Comments/Record-Comment.php" target="_blank"> ثبت نظر </a>
-					<a href="./WDS/Home-Comments/View-Comments.php" target="_blank"> دیدن نظرات </a>
+			<div class="all-home-comments">
+				<div class="home-comments">
+					<h2> نظر خود را بنویسید...</h2>
+					<div>
+						<a href="./WDS/Home-Comments/Record-Comment.php" target="_blank"> ثبت نظر </a>
+						<a href="./WDS/Home-Comments/View-Comments.php" target="_blank"> دیدن نظرات </a>
+					</div>
 				</div>
 			</div>
 			<!--//////////////////////////////////////////////////////////////////////////////-->

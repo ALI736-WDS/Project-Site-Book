@@ -139,7 +139,7 @@ footer {
   background: #3a4fcc;
   border-radius: 5px;
 }
-.eitaa svg{
+.eitaa svg {
   width: 24px;
 }
 a,
@@ -763,11 +763,15 @@ h3.title-blog {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 80px;
+  height: 150px;
+  margin-top: 100px;
+  padding: 0px 0 20px 0;
+  box-shadow: 0px 2px 5px 3px rgba(21, 21, 143, 0.3);
+  border-radius: 30px;
 }
 
 .home-comments div {
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .home-comments a {
@@ -934,6 +938,13 @@ h3.title-blog {
 
 .coment2 h5 {
   margin-bottom: 20px;
+}
+
+.record-comment {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .btnsubmit {
