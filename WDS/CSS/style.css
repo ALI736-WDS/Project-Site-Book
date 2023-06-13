@@ -12,7 +12,7 @@ div {
 main {
   background: #dbd9eb;
   width: 100vw;
-  height: 4000px;
+  height: 4100px;
   color: black;
   font-size: 1rem;
   text-align: right;
@@ -1405,7 +1405,7 @@ h3.title-blog {
 /*////////////////////////////////////////////////////////////*/
 @media (max-width: 992px) {
   main {
-    height: 4400px;
+    height: 4700px;
   }
 
   .etelaat_ketab {
@@ -1627,8 +1627,11 @@ h3.title-blog {
     width: 90%;
   }
   /*////////////////////////////////*/
+  .style-main {
+    width: 650px;
+  }
   .blog {
-    font-size: 0.7rem;
+    font-size: 1rem;
   }
   .blog h1 {
     width: 100%;
