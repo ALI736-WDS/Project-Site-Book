@@ -12,7 +12,7 @@ div {
 main {
   background: #dbd9eb;
   width: 100vw;
-  height: 4100px;
+  height: 4400px;
   color: black;
   font-size: 1rem;
   text-align: right;
@@ -774,6 +774,16 @@ h3.title-blog {
   box-shadow: 0px 2px 5px 3px rgba(27, 27, 119, 0.5);
   border-radius: 30px;
 }
+.title-audio {
+  padding: 7px;
+}
+.title-audio h2 {
+  font-size: 1.5rem;
+  color: #312d2d;
+}
+.title-audio h2 span{
+  color: #921c1c;
+}
 .audio audio {
   display: flex;
   padding: 5px;
@@ -1429,7 +1439,7 @@ h3.title-blog {
 /*////////////////////////////////////////////////////////////*/
 @media (max-width: 992px) {
   main {
-    height: 4700px;
+    height: 5100px;
   }
 
   .etelaat_ketab {
@@ -1509,6 +1519,12 @@ h3.title-blog {
 /*////////////////////////////////////////////*/
 /*////////////////////////////////////////////*/
 @media (max-width: 768px) {
+  main {
+    height: 7200px;
+  }
+  .home-page-col {
+    width: 650px;
+  }
   .etelaat_ketab {
     display: flex;
     flex-direction: column;

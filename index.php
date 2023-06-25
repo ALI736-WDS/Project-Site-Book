@@ -35,14 +35,13 @@ include 'WDS/includes/menu main site.php';
 
 <head>
 	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=800px, initial-scale=1.0">
 	<meta name="keywords" content="دانلود کتاب , کتاب , کتابسرا , مجتبی خوانساری و کتاب مجتبی خوانساری و شفای الهی و کتاب مجتبی خوانساری شفای الهی و کتاب مجتبی خوانساری بنام شفای الهی و شفا و الهی و روح القدس در اسلام و پیامبر اسلام و تسلط شیطان بر حضرت ایوب علیه السلام! و درگيرى حضرت موسى (ع) با ساحران به کجا رسید؟ و فواید خواندن سوره ناس و فلق(مُعَوِّذَتَیْن) و مسیح و شفای مرد دست خشکیده و روایات چشم زخم از پیامبر و " />
-	<meta name="description" content="دانلود کتاب مجتبی خوانساری بنام شفای الهی" />
-	<meta name="author" content="مجتبی خوانساری" />
-	<meta name="viewport" content="width=800px, initial-scale=1.0">
+	<meta name="description" content="دانلود کتاب دکتر مجتبی خوانساری بنام شفای الهی" />
+	<meta name="author" content="دکتر مجتبی خوانساری" />
+	<meta name="viewport" content="width=device-width , initial-scale=1.0">
 
 
-	<title> دانلود کتاب مجتبی خوانساری - شفای الهی </title>
+	<title> دانلود کتاب دکتر مجتبی خوانساری - شفای الهی </title>
 
 	<link rel="shortcut icon" href="./WDS/Image/Jeld Ketab.jpg">
 
@@ -72,7 +71,7 @@ include 'WDS/includes/menu main site.php';
 		</div>
 	</div>
 
-	<main class="col-lg-12">
+	<main class="home-page-col col-lg-12">
 		<div class="container">
 
 			<div class="clock"></div>
@@ -159,6 +158,7 @@ include 'WDS/includes/menu main site.php';
 			<!--//////////////////////////////////////////////////////////////////////////////-->
 
 			<div class="audio">
+				<div class="title-audio"><h2>  فایل صوتی رقیه شرعی برای دانلود <span> (در صورت عدم امکان دسترسی به راقی) </span></h2></div>
 				<audio controls>
 					<source src="./WDS/download/audio/4_5803157092193799764.mp3" type="audio/mpeg">
 				</audio>

@@ -76,7 +76,9 @@ include '../includes/menu site.php';
 <html lang="fa" dir="rtl">
 <head>
 	<meta charset="UTF-8">
-	<meta http-equiv="" content="" > 
+	<meta name="keywords" content="دانلود کتاب , کتاب , کتابسرا , مجتبی خوانساری و کتاب مجتبی خوانساری و شفای الهی و کتاب مجتبی خوانساری شفای الهی و کتاب مجتبی خوانساری بنام شفای الهی و شفا و الهی و روح القدس در اسلام و پیامبر اسلام و تسلط شیطان بر حضرت ایوب علیه السلام! و درگيرى حضرت موسى (ع) با ساحران به کجا رسید؟ و فواید خواندن سوره ناس و فلق(مُعَوِّذَتَیْن) و مسیح و شفای مرد دست خشکیده و روایات چشم زخم از پیامبر و " />
+	<meta name="description" content="دانلود کتاب دکتر مجتبی خوانساری بنام شفای الهی" />
+	<meta name="author" content="دکتر مجتبی خوانساری" />
 	<meta name="viewport" content="width=device-width , initial-scale=1.0" >
 		<title> مقالات </title>
 	
